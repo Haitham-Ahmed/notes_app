@@ -14,9 +14,7 @@ class NotesApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.dark),     
-      home: const NotesViews(
-        
-      ),
+      home: const NotesViews(),
     );
   }
 }
