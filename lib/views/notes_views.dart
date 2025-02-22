@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:notes_app/widgets/notes_view_body.dart';
 
@@ -8,6 +9,9 @@ class NotesViews extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: const NotesViewBody(),
+      floatingActionButton: FloatingActionButton(onPressed: () {},
+      child: const Icon(Icons.add),
+      ),
     );
   }
 }
