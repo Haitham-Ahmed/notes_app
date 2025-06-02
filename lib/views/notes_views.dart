@@ -24,11 +24,11 @@ class NotesViews extends StatelessWidget {
                 return const AddNoteBottomSheet();
               });
         },
+        backgroundColor: Color(0xff53EBD6),
         child: const Icon(
           Icons.add,
           color: Colors.black,
         ),
-        backgroundColor: Color(0xff53EBD6),
       ),
     );
   }

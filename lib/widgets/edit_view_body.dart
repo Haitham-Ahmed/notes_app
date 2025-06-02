@@ -10,7 +10,7 @@ import 'package:notes_app/widgets/custom_text_field.dart';
 import 'package:notes_app/widgets/edit_note_colors_list_view.dart';
 
 class EditNotesViewBody extends StatefulWidget {
-  const EditNotesViewBody({Key? key, required this.note}) : super(key: key);
+  const EditNotesViewBody({super.key, required this.note});
 
   final NoteModel note;
 
